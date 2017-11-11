@@ -9,15 +9,14 @@ import os
 from tornado import ioloop
 from tornado import web
 from tornado import httpserver
-from main_handler import MainHandler
-from blog_handler import BlogHandler
-
+from userhandler import LoginHandler
+from mainhandler import MainHandler
 
 class Application(web.Application):
     def __init__(self):
         handlers = [
-            (r"/", MainHandler),
-            (r"/blog", BlogHandler)
+            (r"/login.html", LoginHandler),
+            (r"/", MainHandler)
         ]
 
         settings = dict(

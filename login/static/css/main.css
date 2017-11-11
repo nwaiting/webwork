@@ -31,6 +31,10 @@ a{
     color: #fff;
 }
 
+.loginbox{
+    display: none;
+}
+
 .login-item input {
     width: 350px;
     height: 40px;
@@ -41,12 +45,17 @@ a{
     height: 50px;
     background-color: #9597ee;
     display: block;
-    text-align: center;
-    line-height: 50px;
+    text-align: center; //水平居中
+    line-height: 50px; //垂直居中
     color: #fff;
     font-size: 30px;
 }
 
 .login-item{
     margin-top: 20px;
+    margin-left: 20px;
+}
+
+.regbox {
+    display: none;
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang='utf-8'>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/main.css">
+        <script type="text/javascript" src="../static/js/jquery.3.2.1.min.js"></script>
+        <script type="text/javascript" src="../static/layer/layer.js"> </script>
+        <script type="text/javascript" src="../static/js/main.js"> </script>
+        <title>百度登录模拟</title>
+    </head>
+    <body>
+    <div class="header">
+        <div class="header-con">
+            <div class="">
+                <a href="javascript:;" class="blogin" onclick="ShowLoginBox()">登录</a>
+            </div>
+            <div class="">
+                <a href="javascript:;" class="bregis" onclick="ShowRegBox()">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="loginbox">
+        <div class="login-item">
+            <input type="text" class="textUserName" placeholder="请输入用户名">
+        </div>
+        <div class="login-item">
+            <input type="password" class="textPwd" placeholder="请输入密码">
+        </div>
+        <div class="login-item">
+            <a href="javascript:;" onclick="Login()">登录</a>
+        </div>
+    </div>
+    <div class="regbox">
+        <div class="login-item">
+            <input type="text" class="textRUserName" placeholder="请输入用户名">
+        </div>
+        <div class="login-item">
+            <input type="password" class="textRPwd" placeholder="请输入密码">
+        </div>
+        <div class="login-item">
+            <input type="text" class="textMail" placeholder="请输入邮箱">
+        </div>
+        <div class="login-item">
+            <input type="text" class="textTel" placeholder="请输入手机号">
+        </div>
+        <div class="login-item">
+            <a href="javascript:;" onclick="Regin()">注册</a>
+        </div>
+    </div>
+    </body>
+</html>
