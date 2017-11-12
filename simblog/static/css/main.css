@@ -43,7 +43,7 @@ a, body {
 
 .main{
     float: right;
-    width: 80%;
+    width: 85%;
     color: #454545;
 }
 
@@ -59,7 +59,7 @@ a, body {
 }
 
 .article-list, .article {
-    margin-right: 30%;
+    margin-right: 15%;
     background: #fff;
     padding: 20px 30px;
     /*添加阴影效果*/
