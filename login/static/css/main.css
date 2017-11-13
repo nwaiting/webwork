@@ -14,10 +14,10 @@ a{
     background: #000;
 }
 
+/*border: solid 1px red;*/
 .header-con{
     width: 900px;
     height: 40px;
-    border: solid 1px red;
     margin: 0px auto;
 }
 
